@@ -1,0 +1,171 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 33,
+        "name": "Adding a New Address",
+        "description": "",
+        "id": "adding-a-new-address-to-logged-in-cutomer;adding-a-new-address;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13403101300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User logged in with Valid UserName and Password",
+            "match": {
+              "location": "AddNewAddresstoNewCustomer.user_logged_in_with_Valid_UserName_and_Password()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 92668000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User Clicks on Address Button to create NewAddress",
+            "match": {
+              "location": "AddNewAddresstoNewCustomer.user_Clicks_on_New_Address_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 450761500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Click on New AddressButton",
+            "match": {
+              "location": "AddNewAddresstoNewCustomer.clickOnNewAddressButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9941400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User lands on the NewAddress form Page",
+            "match": {
+              "location": "AddNewAddresstoNewCustomer.user_lands_on_the_NewAddress_form_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2216003600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User Enters \"KrishE\" , \"Kiran\" , \"TestAddress2\" ,\"TestAddress2\" ,\"Bangalore\" ,\"AK\" , \"23423\" \"12/01/1985\" , \"32\" , \"987878788\" and Clicks on Save Address button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "KrishE",
+                  "offset": 13
+                },
+                {
+                  "val": "Kiran",
+                  "offset": 24
+                },
+                {
+                  "val": "TestAddress2",
+                  "offset": 34
+                },
+                {
+                  "val": "TestAddress2",
+                  "offset": 50
+                },
+                {
+                  "val": "Bangalore",
+                  "offset": 66
+                },
+                {
+                  "val": "AK",
+                  "offset": 79
+                },
+                {
+                  "val": "23423",
+                  "offset": 86
+                },
+                {
+                  "val": "12/01/1985",
+                  "offset": 94
+                },
+                {
+                  "val": "32",
+                  "offset": 109
+                },
+                {
+                  "val": "987878788",
+                  "offset": 116
+                }
+              ],
+              "location": "AddNewAddresstoNewCustomer.user_Enters_and_Clicks_on_Save_Address_button(String,String,String,String,String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 34064700,
+              "error_message": "junit.framework.ComparisonFailure: expected:\u003cAddress[s] was successfully cr...\u003e but was:\u003cAddress[] was successfully cr...\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat com.pom.cucumber.stepdefinitions.AddNewAddresstoNewCustomer.verify_the_Success_Message_for_the_New_Address_Created(AddNewAddresstoNewCustomer.java:60)\r\n\tat ✽.Then Verify the Success Message for the New Address Created(C:/Users/kpemmaraju/eclipse-workspace/PageObjectModelUsingCucumber/src/main/java/com/pom/cucumber/feature/AutomationAddrBookAddNewAddr.feature:27)\r\n",
+              "status": "failed"
+            },
+            "line": 27,
+            "name": "Verify the Success Message for the New Address Created",
+            "match": {
+              "location": "AddNewAddresstoNewCustomer.verify_the_Success_Message_for_the_New_Address_Created()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "Verify First and LastNames are updated correctly",
+            "match": {
+              "location": "AddNewAddresstoNewCustomer.verify_First_and_LastNames_are_updated_correctly()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "Close the MyAccountPage",
+            "match": {
+              "location": "AddNewAddresstoNewCustomer.teardown()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Adding a New Address to logged in Cutomer",
+    "description": "",
+    "id": "adding-a-new-address-to-logged-in-cutomer",
+    "keyword": "Feature",
+    "uri": "C:/Users/kpemmaraju/eclipse-workspace/PageObjectModelUsingCucumber/src/main/java/com/pom/cucumber/feature/AutomationAddrBookAddNewAddr.feature"
+  }
+]
